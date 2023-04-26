@@ -1,0 +1,49 @@
+
+
+<h3 class="heading-for-media">The Hindu(English)</h3>
+<h3 class="heading-for-media">Dainik Bhaskar</h3>
+<h3 class="heading-for-media">Hindustan</h3>
+<h3 class="heading-for-media">Dainik Navjyoti</h3>
+<h3 class="heading-for-media">Janastta</h3>
+<h3 class="heading-for-media">Nava Bharat</h3>
+<h3 class="heading-for-media">Nava Bharat Times</h3>
+</figure>
+<h3 class="heading-for-media"></h3>
+<h3 class="heading-for-media"></h3>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<h6 class="heading-for-amarujala">Amar Ujala</h6>
+
+<h6 class="heading-for-dainikjagran">Dainik Jagran</h6>
+
+<h6 class="heading-for-hindustantimes">Hindustan Times</h6>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

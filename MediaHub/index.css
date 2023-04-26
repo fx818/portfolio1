@@ -1,0 +1,228 @@
+html{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    border: 0.1875rem solid rgb(52, 43, 63);
+    background-image: url(background.jpg); 
+    border-radius: 3.1rem;
+    background-color: aliceblue;
+}
+
+.emblem{
+    height: 3.8rem;
+    margin-bottom: -1.5rem;
+    margin-left: 0.1rem;
+    background-color: transparent;
+}
+
+@keyframes h1 {
+     0% {background-color: rgb(99, 89, 89);}
+     20% {background-color: rgb(123, 197, 175);}
+     45% {background-color: rgb(118, 165, 122);}
+     60%{ background-color: rgb(169, 164, 235) ;}
+     80%{ background-color: rgb(138, 114, 67);}
+     100%{background-color: rgba(128, 128, 128, 0.678);}
+} 
+
+h1{
+    animation-name: h1;
+    animation-duration: 20s; 
+    text-align: center;
+    color: rgb(95, 36, 46);
+    background-color: rgba(128, 128, 128, 0.705);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem !important;
+    border-left: 0.6rem solid rgb(53, 109, 100);
+    border-right: 0.6rem solid rgb(53, 109, 100);
+    border-bottom: 0.6rem solid rgb(53, 109, 100);
+    background-position: 100%;
+    padding: 2rem;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    margin-top: -1rem;
+}
+.slogan{
+    animation-name: h1;
+    animation-duration: 20s;
+    font-size: 0.65rem;
+    color: rgb(80, 45, 45);
+}
+@keyframes moving{
+     0%{background-color: rgba(255, 255, 255, 0.555);}
+     15% {background-color: rgba(88, 231, 224, 0.5);}
+     30% {background-color: rgba(132, 206, 138, 0.507);}
+     55%{ background-color: rgba(89, 79, 235, 0.459) ;}
+     77%{ background-color: rgba(117, 84, 62, 0.445);}
+     100%{background-color: rgba(180, 174, 174, 0.37);}
+}
+.mov-text{
+    animation-name: moving;
+    animation-duration: 16s;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.39);  
+    animation-iteration-count: infinite;
+}
+.border1{
+    border: 1px solid rgb(58, 49, 49);
+    padding: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.9rem;
+    width: fit-content;
+    max-width: device-width;
+    background-color: rgba(197, 193, 193, 0.767);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+abbr{
+    text-decoration: none;
+}
+.border-text{
+    font-size: 0.9rem; 
+    color: black;
+    padding-left: 0.8rem; 
+    font-family: cursive;
+    background-color:transparent;
+}
+.paragraph1{
+    border: 5px rgb(170, 170, 175);
+    border-style: ridge;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 0.85rem;
+    background-color: rgba(73, 52, 52, 0.479);
+    line-height: 1.35;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family:  'Times New Roman', Times, serif;
+}
+summary{
+    display: block;
+}
+.amarujala-logo{
+    border: 5px double rgb(0, 0, 0);
+    height: 75px;
+    border-radius: 80px; 
+    padding: 1px; 
+}
+table,tr,th,td,caption{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(161, 206, 150, 0.144);
+}
+dl{
+    color: rgb(49, 10, 10);
+}
+.dainikjagran-logo{
+    border: 5px double rgb(255, 0, 0);
+    height: 75px;
+    border-radius: 80px; 
+    padding: 1px; 
+}
+.dainikjagran-content{
+    font-size: 15px;
+    font-weight: 600; 
+}
+.hindustantimes-logo{
+    border: 5px double rgb(0, 47, 255);
+    height: 75px;
+    border-radius: 160px; 
+    padding: 1px;
+}
+.hindustantimes-content{
+    font-size: 15px;
+    font-weight: 600;
+}
+.jansatta-logo{
+    border: 5px double rgb(51, 36, 47);
+    height: 75px;
+    border-radius: 160px; 
+    padding: 1px;
+}
+.jansatta-content{
+    font-size: 15px;
+    font-weight: 600;
+}
+.NavBharat-logo{
+    border: 5px double rgb(57, 141, 219);
+    height: 75px;
+    border-radius: 160px; 
+    padding: 1px;
+}
+.navbharat-content{
+    font-size: 15px;
+    font-weight: 600;
+}
+.logo-section{
+    border: 5px double rgba(136, 74, 3, 0.973);
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgba(125, 182, 182, 0.397);
+}
+em{
+    background-color: rgb(223, 148, 154);
+}
+.available-media{
+    border: 0.18rem solid rgb(138, 115, 56);
+    border-radius: 1.25rem;
+    background-color: rgba(128, 128, 128, 0.527);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+}
+.printmedia{
+    font-size: 1.4rem;
+}
+ol { 
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.7rem; 
+    list-style-position: inside;
+    list-style-image: url(iconli.png); 
+}
+
+
+
+
+.back-to-top{
+    color: white;
+    background-color: rgb(51, 74, 94);
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    padding: 0.85rem;
+    border-radius: 2rem;
+}
+.portfolio{
+    border: 1px solid transparent;
+    color: white;
+    background-color: rgb(51, 74, 94);
+    position: fixed;
+    bottom: 1rem;
+    left: 2rem;
+    padding: 0.85rem;
+    border-radius: 2rem;
+}
+
+
+
+x{
+    font-size: 1.0rem;
+    color: black;
+}

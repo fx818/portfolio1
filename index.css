@@ -1,0 +1,71 @@
+html{
+    color: white;
+    background-color: black;
+    background-image: url(images/nbgw.jpg);
+}
+
+
+@keyframes img {
+    0% {border: 1px solid white;}
+    16.67% {border: 1px solid rgb(255, 0, 0);}
+    33.34% {border: 1px solid rgb(9, 255, 0);}
+    50%{ border: 1px solid rgb(238, 255, 5);}
+    66.67%{ border: 1px solid rgb(0, 47, 255);}
+    83.34%{border: 1px solid rgb(0, 255, 234);}
+    100%{border: 1px solid rgb(255, 0, 212);}
+} 
+
+
+img{
+    animation-name: img;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    height: 10rem;
+    border-radius: 5rem;
+    border: 2px solid red;
+}
+
+p{
+    animation-name: img;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid red;
+    border-radius: 2rem ;
+}
+span{
+    animation-name: img;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    font-size: 1.7rem;
+    border: 1px solid red;
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    margin-left: 1%;
+}
+
+.projectslink{
+    animation-name: img;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color:  silver;
+    border: 1px solid red;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size: 1.1rem;
+    /* color: inherit; */
+    text-decoration: none;
+    cursor: grab;
+    margin-left: 2%;
+}
+
+a{
+    color: inherit;
+    padding: .5rem;
+    text-decoration: none;
+    cursor: grab;
+}

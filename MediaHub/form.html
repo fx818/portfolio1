@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Form</title>
+</head>
+<body>
+
+
+    <h1>Creating my First Form</h1>
+    <form action="https://httpbin.org/get">
+
+        <p>
+            <label for="fname">First Name</label>
+            <input type="text" autocomplete="on" placeholder="Your First Name" required>
+        </p>
+        <p>
+            <label for="lname">Last Name</label>
+            <input type="text" autocomplete="on" placeholder="Your Last Name" required>
+        </p>
+        <p>
+            <label for="contact">Contact</label>
+            <input type="tel" autocomplete="on" placeholder="000-000-0000" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text" autocomplete="on" placeholder="example@email.com">
+        </p>
+        <p>
+            <label for="option">Your Age Group</label>
+            <select name="option" id="option">
+                <option value="0-18">0-18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-60">30-60</option>
+                <option value="60+">60+</option>
+            </select>
+        </p>
+    </form>
+    
+</body>
+</html>

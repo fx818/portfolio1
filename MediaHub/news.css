@@ -1,0 +1,119 @@
+html{
+    background-color: rgba(78, 219, 207, 0.596);
+    scroll-behavior: smooth;
+    border: 1px solid black;
+
+}
+
+h1{
+    font-size: 1.7rem;
+    color: brown;
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    text-align: center;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    background-color: rgb(196, 223, 154);
+    margin-top: -0.9rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.mov-text{
+    border: 2px solid grey;
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    background-color: rgb(156, 149, 149);
+}
+
+em{
+    color: Blue;
+    font-size: 18px;
+}
+
+marquee{
+    margin-bottom: 11px;
+    margin-top: -10px;
+}
+
+div{
+    border: 2px solid rgba(15, 14, 14, 0.774);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.562);
+}
+
+
+h5{
+    color: brown;
+    display: contents;
+}
+
+a{
+    text-decoration: none;
+}
+
+.news-section{
+    background-color: rgb(196, 223, 154);
+    color: rgb(4, 7, 211);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 1rem;
+    width: fit-content;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+}   
+
+marquee{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.source{
+    font-size: 0.7rem;
+}
+
+
+
+.back-to-top{
+    color: white;
+    background-color: rgb(51, 74, 94);
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    padding: 0.85rem;
+    border-radius: 2rem;
+}
+
+
+
+
+
+

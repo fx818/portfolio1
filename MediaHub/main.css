@@ -1,0 +1,246 @@
+html{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    border: 3px solid rgb(52, 43, 63);
+    background-image: url(background.jpg); 
+    border-radius: 50px;
+    
+}
+
+
+.emblem{
+    height: 60px;
+    margin-bottom: -25px;
+    margin-left: 1px;
+    background-color: rgb(248, 240, 240);
+}
+
+@keyframes h1 {
+     0% {background-color: rgb(68, 63, 63);}
+     20% {background-color: rgb(123, 197, 175);}
+     45% {background-color: rgb(118, 165, 122);}
+     60%{ background-color: rgb(169, 164, 235) ;}
+     80%{ background-color: rgb(75, 67, 51);}
+     100%{background-color: black;}
+}
+
+
+h1{
+    animation-name: h1;
+    animation-duration: 25s; 
+    text-align: center;
+    color: rgb(236, 229, 122);
+    background-color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    
+    border: 9px double rgb(53, 109, 100);
+    
+    background-position: 100%;
+    padding: 30px;
+    border-radius: 19px;
+    width: max-content;
+     
+
+}
+
+@keyframes moving{
+     0%{background-color: white;}
+     15% {background-color: rgb(231, 88, 88);}
+     30% {background-color: rgb(78, 194, 87);}
+     55%{ background-color: rgb(89, 79, 235) ;}
+     77%{ background-color: rgb(117, 84, 62);}
+     100%{background-color: black;}
+}
+
+.mov-text{
+    animation-name: moving;
+    animation-duration: 15s;
+    color: white;
+    font-size: 14px;
+    font-family: cursive;
+    background-color: black;  
+    animation-iteration-count: infinite;
+}
+     
+
+.border1{
+    border: 3px solid rgb(58, 49, 49);
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+
+
+
+.border-text{
+    font-size: 15px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: cursive;
+    background-color: rgb(233, 198, 204);
+}
+
+.paragraph1{
+    border: 5px rgb(170, 170, 175);
+    border-style: ridge;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 13px;
+    line-height: 1.35;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+summary{
+    display: block;
+    
+}
+
+ 
+.amarujala-logo{
+    border: 5px double rgb(0, 0, 0);
+    height: 75px;
+    border-radius: 80px; 
+    padding: 1px; 
+    
+    
+
+}
+
+table,tr,th,td,caption{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(161, 206, 150, 0.144);
+}
+ 
+
+
+dl{
+    color: rgb(49, 10, 10);
+}
+
+.dainikjagran-logo{
+    border: 5px double rgb(255, 0, 0);
+    height: 75px;
+    border-radius: 80px; 
+    padding: 1px; 
+    
+}
+
+.dainikjagran-content{
+    font-size: 15px;
+    font-weight: 600; 
+
+}
+
+
+
+.hindustantimes-logo{
+    border: 5px double rgb(0, 47, 255);
+    height: 75px;
+    border-radius: 160px; 
+    padding: 1px;  
+    
+}
+
+
+
+.hindustantimes-content{
+    font-size: 15px;
+    font-weight: 600; 
+
+}
+
+
+.jansatta-logo{
+    border: 5px double rgb(51, 36, 47);
+    height: 75px;
+    border-radius: 160px; 
+    padding: 1px;  
+
+}
+
+.jansatta-content{
+    font-size: 15px;
+    font-weight: 600; 
+
+}
+
+
+
+
+.NavBharat-logo{
+    border: 5px double rgb(57, 141, 219);
+    height: 75px;
+    border-radius: 160px; 
+    padding: 1px;  
+
+}
+
+
+.navbharat-content{
+    font-size: 15px;
+    font-weight: 600; 
+
+}
+
+
+
+
+.logo-section{
+    border: 5px double rgb(32, 30, 30);
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+}
+ 
+
+
+em{
+    background-color: rgb(223, 148, 154);
+}
+
+
+.available-media{
+    border: 3px solid rgb(138, 115, 56);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+ol { 
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px; 
+    list-style-position: inside;
+    list-style-image: url(iconli.png); 
+}
+
+
+
+x{
+    font-size: 20px;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicing</title>
+
+    <style>
+        
+        legend{
+            font-weight: 900;
+            font-variant: small-caps;
+            background-color: aliceblue;
+            width: fit-content;
+            border-radius: 2rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 0.5rem;
+            padding-top: 0.5rem;
+        }
+
+        h1{
+            font-family: cursive;
+            background-color: cornflowerblue;
+            width: fit-content;
+            border-radius: 2rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 0.5rem;
+            padding-top: 0.5rem;
+        }
+
+        p,legend,option,select,input{
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2rem;
+        }
+        input{
+            border-radius: 2rem;
+            padding-left: 1rem;
+        }
+        legend{
+            text-align: center;
+        }
+        h1{
+            font-size: 3rem;
+        }
+
+        button{
+            font-size: 2rem;
+            width: fit-content;
+            border-radius: 2rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 0.5rem;
+            padding-top: 0.5rem;
+        }
+        html{
+            background-color: rgb(56, 87, 87);
+        }
+        input,option,optgroup{
+            color: white;
+            background-color: black;
+        }
+
+        fieldset{
+            border-radius: 1rem;
+            padding-left: 3rem;
+        }
+
+    </style>
+
+</head>
+<body>
+    <center>
+        <h1>AI Survey</h1>
+    </center>
+    <form action="https://httpbin.org/get">
+        <fieldset>
+            <legend>Basic Data</legend>
+            <p>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Anurag" required>
+            </p>
+            <p>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Upadhyay" required>
+            </p>
+            <p>
+                <label for="age">Age:</label>
+                <input type="number" placeholder="e.g. 20" id="age" name="age">
+            </p>
+            <p>
+                <label for="phno">Phone Number:</label>
+                <input type="tel">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Secondary Data</legend>
+            <p>
+                <label for="color">Favourite Colour:</label>
+                <select name="color" id="color">
+                    <option value="Red">Red</option>
+                    <option value="Black">Black</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Pink">Pink</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>
+                <label for="dish">Fav Dish</label>
+                <select name="dish" id="dish" multiple size="3">
+                    <optgroup label="Sweets">
+                        <option value="rasgolla">Rasgolla</option>
+                        <option value="halwa">Halwa</option>
+                        <option value="laddo">Laddo</option>
+                        <option value="other">Others</option>
+                    </optgroup>
+                    
+                    <optgroup label="Namkeen">
+                        <option value="moong daal">Moong Daal</option>
+                        <option value="bhujia">Bhujia</option>
+                        <option value="Mix Namkeen">Mix Namkeen</option>
+                        <option value="other">Others</option>
+                    </optgroup>
+                    
+                    <optgroup label="Cold Drinks">
+                        <option value="coka cola">Coka Cola</option>
+                        <option value="mountain Dew">Mountain Dew</option>
+                        <option value="maaza">Maaza</option>
+                        <option value="other">Others</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="tests">Want to give your opinion about the current pandemic going on??????</label>
+                <p>
+                    <input type="radio" name="test" id="test1" value="HI">
+                    <label for="test1">Yes</label>
+                </p>
+                <p>
+                    <input type="radio" name="test" id="test2" value="HI">
+                    <label for="test2">No</label>
+                </p>
+                <p>
+                    <input type="radio" name="test" id="test3" value="HI">
+                    <label for="test3">Prefer not to say</label>
+                </p>
+                
+            </p> 
+            <p>
+                <label for="city">Which city are you currently in?</label>
+                <input type="text" id="city" name="city" list="city-list">
+                <datalist id="city-list">
+                    <option value="Kanpur">Kanpur</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Sultanpur">Sultanpur</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Agra">Agra</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Varanasi">Varanasi</option>
+                    <option value="Azamgarh">Azamgarh</option>
+                    <option value="Bijnor">Bijnor</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Others">Others</option>
+                </datalist>
+            </p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Miscellaneous Question</legend>
+            <p>
+                <label for="college">Name of your College?</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="marr">Are you Married?</label>
+                <p>
+                    <input type="radio" id="yes" name="yes" value="Yes">
+                    <label for="yes">Yes</label>
+                </p>
+                <p>
+                    <input type="radio" id="No" name="yes" value="No">
+                    <label for="no">No</label>
+                </p>
+                
+            </p>
+            <p>
+                <label for="rate">How much stars would you give to my website???</label>
+                <p>
+                    <input type="radio" id="rate" name="rate" value="5">
+                    <label for="rate">5 Star</label>
+                </p>
+                <p>
+                    <input type="radio" id="rate" name="rate" value="4">
+                    <label for="rate">4 Star</label>
+                </p>
+                <p>
+                    <input type="radio" id="rate" name="rate" value="3">
+                    <label for="rate">3 Star</label>
+                </p>
+                <p>
+                    <input type="radio" id="rate" name="rate" value="2">
+                    <label for="rate">2 Star</label>
+                </p>
+                <p>
+                    <input type="radio" id="rate" name="rate" value="1">
+                    <label for="rate">1 Star</label>
+                </p>
+                <p>
+                    <input type="radio" id="rate" name="rate" value="0">
+                    <label for="rate">0 Star</label>
+                </p>
+                <p>
+                    <input type="radio" id="rate" name="rate" value="so bad">
+                    <label for="rate">Negative Stars</label>
+                </p>
+            </p>
+        </fieldset>
+        <br>
+        <center> 
+        <button>
+            Submit
+        </button>
+        </center>
+        <br>
+    </form>
+
+</body>
+</html>

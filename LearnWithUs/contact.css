@@ -1,0 +1,26 @@
+html{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+
+h4{
+    color: white;
+}
+
+section{
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    width: fit-content;
+}
